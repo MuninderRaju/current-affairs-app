@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'YOUR_API_KEY'; // మీ GNews API కీని ఇక్కడ చేర్చండి
+    const apiKey = '0ee8b07a865afb4a3fb59e6e6cd39ad2'; // మీ GNews API కీని ఇక్కడ చేర్చండి
     const newsContainer = document.getElementById('news-container');
 
     // మీరు ఏ అంశంపై వార్తలు కావాలో ఇక్కడ మార్చుకోవచ్చు. ఉదా: 'technology', 'sports', 'telangana'
