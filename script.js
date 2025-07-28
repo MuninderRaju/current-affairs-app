@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const newsContainer = document.getElementById('news-container');
 
     // మీరు ఏ అంశంపై వార్తలు కావాలో ఇక్కడ మార్చుకోవచ్చు. ఉదా: 'technology', 'sports', 'telangana'
-    const query = 'current affairs india telugu';
+    const query = 'const query = 'india';
     const url = `https://gnews.io/api/v4/search?q=${encodeURIComponent(query)}&lang=te&country=in&token=${apiKey}`;
 
     async function getNews() {
